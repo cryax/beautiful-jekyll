@@ -5,50 +5,26 @@ image: /img/hello_world.jpeg
 tags: [Neuro-science, exciting-stuff]
 ---
 
+Receptive Field:
+Theo wiki thì RF của sensory neuron là vùng đặc trưng trong không gian sensory
+mà 1 kích thích sẽ làm điều khiển việc firing của neuron đó. Vùng này có thể là lông trong cochlea hoặc 
+1 miếng da, võng mạc, lưỡi hoặc 1 phần của cơ thể của động vật. Hơn nữa, nó có thể là không gian xung quanh 1 
+con vật như là khu vực thính giác được cố định dựa trên 1 hệ tham chiếu trên tai và di chuyển khi động vật di chuyển.
 
-Mục tiêu giải thích cách não tạo ra hành vi.
+Theo bài học: Các tính chất đặc biệc của các kích thích cảm giác mà tại ra 1 phản ứng mạnh từ tế bào.
+<có thể hiểu nôm na là vùng có phản ứng mạnh với 1 loại tín hiệu đặc biệt nằm trên tế bào>
+Ví dụ trong bài giảng:
++ 1 điểm sáng mà được bật lên tại 1 vị trí cố định trên retina(võng mạc)
++ 1 thanh sáng mà bật lên ứng với góc xoay và vị trí xác định trên võng mạc
 
-Theo P.Dayan và L. Abbott: là công cụ và phương thức giúp mô tả những gì hệ thần kinh làm, đánh giá chức năng và hiểu cách tại sao nó hoạt động theo 1 cách cụ thể.
-Descriptive Model(What) – Mechanistic Model (How) – Interpretive Model (Why).
-Receptive Field (Vùng thụ cảm): đặc trưng cụ thể của 1 vùng giác quan kích thích mà tạo ra tín hiệu manh từ cell.
-ví dụ: điểm sáng mà bật lên tại 1 vùng đặc trưng trên retina (võng mạc).
-Thanh ánh sáng mà bật lên tại vùng đặc trưng có hướng trên võng mạc.
+![Crepe](/img/neuron-science-1/retina-1.jpg)
 
-![Crepe](/img/neuro-science-1/retina-1.jpg)
+Tín hiệu qua retina sẽ chuyển đến LGN và sau đó move đến V1 (RF ở V1 là gì)
 
-Mô hình của RF: ví dụ như trên võng mạc con người ảnh cây bút sẽ lật ngc và in lên màng võng mạc ở đây các cell trên retinal sẽ convert và đưa về vùng xử lý khác từng cell này chỉ phản ứng khi có thông tin tại 1 vị trí cố đinh của nó (nếu nằm ngoài cell sẽ không phản ứng).
+![Crepe](/img/neuron-science-1/retina-2.jpg)
 
-![Crepe](/img/neuro-science-1/retina-2.jpg)
+Ta quay lại ví dụ khi di chuyển barlight góc 45(+) qua lại thì 1 số cell vùng này thu tín hiệu manh nhất
+Ta có thể biểu diễn lại RF của 1 tế bào trên V1 như sau (tùy cell sẽ có RF khác nhau)
 
-LGN: vùng trung gian giữa đường truyền dữ liệu từ retina-> V1.
-Primary Visual Cortex:1 vùng ở vỏ não.
+![Crepe](/img/neuron-science-1/retina-4.jpg)
 
-![Crepe](/img/neuro-science-1/retina-3.png)
-![Crepe](/img/neuro-science-1/retina-4.jpg)
-
-Oriented RF:
-
-![Crepe](/img/neuro-science-1/retina-5.jpg)
-
-Khi di chuyển từ LGN -> V1 cell ở LGN có dạng center-surrounded và V1 có oriented RF.
-Nhiều cell ở LGN là input cho 1 cell ở V1.
-
-![Crepe](/img/neuro-science-1/retina-6.jpg)
-
-và đây là cách RF ở V1 được tạo nên (nhiều cells ở LGN xếp thành 1 cell ở V1)
-
-![Crepe](/img/neuro-science-1/retina-7.jpg)
-
-Tại sao RF ở V1 lại form theo hình dạng như v:
-Cách hình thành như vậy có lợi ích gì.
-Giả sử mục tiêu là biểu diễn ảnh 1 cách chân thực và hiệu quả nhất sử dụng các RF của V1 như trên.  Cho ảnh I ta dựng lại I bằng các RF như sau : I’= sum(Rf(i) * w(i)). w(i) là weight của RF thứ i.
-
-![Crepe](/img/neuro-science-1/retina-8.png)
-
-vậy thì RF(i) phải như thế nào để tổng bình phương lỗi  giữa I và I’ minimized và càng độc lập nhất.
-Ta sẽ test trên nhưng bức ảnh ngẫu nhiên và chọn RF(i) ngẫu nhiêu sau đó chay efficient coding(sparse coding, ICA, predictive coding) algo trên những phần của ảnh.
-Kết quả:
-
-![Crepe](/img/neuro-science-1/retina-9.jpg)
-
-khớp với những gì ta dự đoán. Não bộ cố gắng tối ưu việc biễu diễn ảnh bằng cách tạo ra RF có hình dạng như ta đã thấy.
