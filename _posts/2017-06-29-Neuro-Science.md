@@ -27,6 +27,7 @@ Primary Visual Cortex:1 vùng ở vỏ não.
 ![Crepe](/img/neuro-science-1/retina-4.jpg)
 
 Oriented RF:
+
 ![Crepe](/img/neuro-science-1/retina-5.jpg)
 
 Khi di chuyển từ LGN -> V1 cell ở LGN có dạng center-surrounded và V1 có oriented RF.
