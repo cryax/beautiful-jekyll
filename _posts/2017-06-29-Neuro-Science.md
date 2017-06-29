@@ -23,7 +23,7 @@ Mô hình của RF: ví dụ như trên võng mạc con người ảnh cây bút
 LGN: vùng trung gian giữa đường truyền dữ liệu từ retina-> V1.
 Primary Visual Cortex:1 vùng ở vỏ não.
 
-![Crepe](/img/neuro-science-1/retina-3.jpg)
+![Crepe](/img/neuro-science-1/retina-3.png)
 ![Crepe](/img/neuro-science-1/retina-4.jpg)
 
 Oriented RF:
@@ -42,7 +42,7 @@ Tại sao RF ở V1 lại form theo hình dạng như v:
 Cách hình thành như vậy có lợi ích gì.
 Giả sử mục tiêu là biểu diễn ảnh 1 cách chân thực và hiệu quả nhất sử dụng các RF của V1 như trên.  Cho ảnh I ta dựng lại I bằng các RF như sau : I’= sum(Rf(i) * w(i)). w(i) là weight của RF thứ i.
 
-![Crepe](/img/neuro-science-1/retina-8.jpg)
+![Crepe](/img/neuro-science-1/retina-8.png)
 
 vậy thì RF(i) phải như thế nào để tổng bình phương lỗi  giữa I và I’ minimized và càng độc lập nhất.
 Ta sẽ test trên nhưng bức ảnh ngẫu nhiên và chọn RF(i) ngẫu nhiêu sau đó chay efficient coding(sparse coding, ICA, predictive coding) algo trên những phần của ảnh.
