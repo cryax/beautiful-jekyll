@@ -17,14 +17,14 @@ Ví dụ trong bài giảng:
 + 1 điểm sáng mà được bật lên tại 1 vị trí cố định trên retina(võng mạc)
 + 1 thanh sáng mà bật lên ứng với góc xoay và vị trí xác định trên võng mạc
 
-![Crepe](/img/neuron-science-1/retina-1.jpg)
+![Crepe](/img/neuro-science-1/retina-1.jpg)
 
 Tín hiệu qua retina sẽ chuyển đến LGN và sau đó move đến V1 (RF ở V1 là gì)
 
-![Crepe](/img/neuron-science-1/retina-2.jpg)
+![Crepe](/img/neuro-science-1/retina-2.jpg)
 
 Ta quay lại ví dụ khi di chuyển barlight góc 45(+) qua lại thì 1 số cell vùng này thu tín hiệu manh nhất
 Ta có thể biểu diễn lại RF của 1 tế bào trên V1 như sau (tùy cell sẽ có RF khác nhau)
 
-![Crepe](/img/neuron-science-1/retina-4.jpg)
+![Crepe](/img/neuro-science-1/retina-4.jpg)
 
