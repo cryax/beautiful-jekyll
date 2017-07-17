@@ -3,6 +3,7 @@ layout: post
 title: Neuro science part 2
 image: /img/hello_world.jpeg
 tags: [Neuro-science, exciting-stuff]
+use_math: true
 ---
 # Mechanistic Model (show how a neural system goes about accomplishing a particular func)
 Các cell ở LGN khác với cell ở V1
