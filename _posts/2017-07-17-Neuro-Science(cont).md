@@ -43,3 +43,6 @@ và sau đây là RF sau khi được điều chỉnh bởi các thuật toán:
 ![Crepe](/img/neuro-science-1/rf-6.jpg)
 
 Kết luận là não bộ đang có gắng biểu diễn lại hình ảnh 1 cách hiệu quả và chân thực nhất
+
+$$ \mathbf{\Sigma}_j$  = \sum_{i=1}^n x_{ij} $$
+
