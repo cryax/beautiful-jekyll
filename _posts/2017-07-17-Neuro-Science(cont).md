@@ -3,7 +3,6 @@ layout: post
 title: Neuro science part 2
 image: /img/hello_world.jpeg
 tags: [Neuro-science, exciting-stuff]
-use_math: true
 ---
 # Mechanistic Model (show how a neural system goes about accomplishing a particular func)
 Các cell ở LGN khác với cell ở V1
@@ -44,5 +43,4 @@ và sau đây là RF sau khi được điều chỉnh bởi các thuật toán:
 
 Kết luận là não bộ đang có gắng biểu diễn lại hình ảnh 1 cách hiệu quả và chân thực nhất
 
-$$a^2 + b^2 = c^2$$
 
