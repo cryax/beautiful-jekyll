@@ -44,5 +44,5 @@ và sau đây là RF sau khi được điều chỉnh bởi các thuật toán:
 
 Kết luận là não bộ đang có gắng biểu diễn lại hình ảnh 1 cách hiệu quả và chân thực nhất
 
-$$ \mathbf{\Sigma}_j$  = \sum_{i=1}^n x_{ij} $$
+$$a^2 + b^2 = c^2$$
 
