@@ -11,11 +11,11 @@ tags: [Neuro-science, exciting-stuff]
 - Neuron là đơn vị độc lập và không liên tục với các neuron khác, neuron có nhiều hình dáng khác nhau. 
 - Thông tin được neuron vận chuyển từ các nhánh (dendrites) đến axon.
 
-![Crepe](/img/neuro-science-1/neuron-shapes.jpg)
+![Crepe](/img/neuron-bio/neuron-shapes.jpg)
 
 ** Hình dạng lí tưởng của neuron **
 
-![Crepe](/img/neuro-science-1/idealize-neural.jpg)
+![Crepe](/img/neuron-bio/idealize-neural.jpg)
 
 Ta có thể định nghĩa neuron như 1 cái túi chứa dung dịch được bao bởi 1 lớp màng lipid 2 lớp cho phép các ion chứa điện tích chảy từ bên trong ra ngoài và ngược lại. (Na+, Cl-, K+, H20, ...)
 
@@ -23,23 +23,23 @@ Ta có thể định nghĩa neuron như 1 cái túi chứa dung dịch được 
 - Phía bên trong có nhiều A-, K+
 - Hiệu điên thế được duy trì ở mức -70mV ở bên trong nhờ các cổng ions luân chuyển Na+ ra và K+ vào.
 
-![Crepe](/img/neuro-science-1/membrain-g.jpg)
+![Crepe](/img/neuron-bio/membrain-g.jpg)
 
 ** Cách neuron truyền tín hiệu: **
 
-![](/img/neuro-science-1/membrain-g.jpg) 
+![](/img/neuron-bio/membrain-g.jpg) 
 
 - Nhận input từ neuron khác cổng hóa học mở tại synapses -> hiệu điện thế ở màng thay đổi 
 - Điện thế thay đổi ở màng làm cho cổng điện đóng/ mở dẫn đến thay đổi điện thế 
 - Thay đổi đủ lớn dẫn đến spike hay còn gọi là Action potential 
 
-![](/img/neuro-science-1/action-potential.jpg) 
+![](/img/neuron-bio/action-potential.jpg) 
 
 (cổng Na+ mở làm Na+ chảy vào -> ngưỡng đóng lại -> cổng K+ mở làm K+ chảy ra bên ngoài -> đóng lại)
 
 ** Ảnh tổng quan:**
 
-![](/img/neuro-science-1/big-pic-synapses.jpg) 
+![](/img/neuron-bio/big-pic-synapses.jpg) 
 
 
 
