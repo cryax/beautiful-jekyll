@@ -27,8 +27,6 @@ Ta có thể định nghĩa neuron như 1 cái túi chứa dung dịch được 
 
 ** Cách neuron truyền tín hiệu: **
 
-![](/img/neuron-bio/membrain-g.jpg) 
-
 - Nhận input từ neuron khác cổng hóa học mở tại synapses -> hiệu điện thế ở màng thay đổi 
 - Điện thế thay đổi ở màng làm cho cổng điện đóng/ mở dẫn đến thay đổi điện thế 
 - Thay đổi đủ lớn dẫn đến spike hay còn gọi là Action potential 
