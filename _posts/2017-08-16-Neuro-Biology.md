@@ -5,34 +5,45 @@ image: /img/hello_world.jpeg
 tags: [Neuro-science, exciting-stuff]
 ---
 
-Neuron là đơn vị cấu thành nhỏ nhất của não bộ.
-Neuron là đơn vị độc lập và không liên tục với các neuron khác, neuron có nhiều hình dáng khác nhau. Thông tin được neuron vận chuyển từ các nhánh (dendrites) đến axon.
+# Neuron:
+
+- Neuron là đơn vị cấu thành nhỏ nhất của não bộ.
+- Neuron là đơn vị độc lập và không liên tục với các neuron khác, neuron có nhiều hình dáng khác nhau. 
+- Thông tin được neuron vận chuyển từ các nhánh (dendrites) đến axon.
 
 ![Crepe](/img/neuro-science-1/neuron-shapes.jpg)
 
-Tín hiệu qua retina sẽ chuyển đến LGN và sau đó move đến V1 (RF ở V1 là gì)
+** Hình dạng lí tưởng của neuron **
 
-![Crepe](/img/neuro-science-1/retina-2.jpg)
+![Crepe](/img/neuro-science-1/idealize-neural.jpg)
 
-Ta quay lại ví dụ khi di chuyển barlight góc 45(+) qua lại thì 1 số cell vùng này thu tín hiệu manh nhất
-Ta có thể biểu diễn lại RF của 1 tế bào trên V1 như sau (tùy cell sẽ có RF khác nhau)
+Ta có thể định nghĩa neuron như 1 cái túi chứa dung dịch được bao bởi 1 lớp màng lipid 2 lớp cho phép các ion chứa điện tích chảy từ bên trong ra ngoài và ngược lại. (Na+, Cl-, K+, H20, ...)
 
-![Crepe](/img/neuro-science-1/retina-4.jpg)
-4.jpg)
-iệu đặc biệt nằm trên tế bào>
-Ví dụ trong bài giảng:
-+ 1 điểm sáng mà được bật lên tại 1 vị trí cố định trên retina(võng mạc)
-+ 1 thanh sáng mà bật lên ứng với góc xoay và vị trí xác định trên võng mạc
+- Phía bên ngoài có nhiều Na+, Cl-
+- Phía bên trong có nhiều A-, K+
+- Hiệu điên thế được duy trì ở mức -70mV ở bên trong nhờ các cổng ions luân chuyển Na+ ra và K+ vào.
 
-![Crepe](/img/neuro-science-1/retina-1.jpg)
+![Crepe](/img/neuro-science-1/membrain-g.jpg)
 
-Tín hiệu qua retina sẽ chuyển đến LGN và sau đó move đến V1 (RF ở V1 là gì)
+** Cách neuron truyền tín hiệu: **
 
-![Crepe](/img/neuro-science-1/retina-2.jpg)
+![](/img/neuro-science-1/membrain-g.jpg) 
 
-Ta quay lại ví dụ khi di chuyển barlight góc 45(+) qua lại thì 1 số cell vùng này thu tín hiệu manh nhất
-Ta có thể biểu diễn lại RF của 1 tế bào trên V1 như sau (tùy cell sẽ có RF khác nhau)
+- Nhận input từ neuron khác cổng hóa học mở tại synapses -> hiệu điện thế ở màng thay đổi 
+- Điện thế thay đổi ở màng làm cho cổng điện đóng/ mở dẫn đến thay đổi điện thế 
+- Thay đổi đủ lớn dẫn đến spike hay còn gọi là Action potential 
 
-![Crepe](/img/neuro-science-1/retina-4.jpg)
-4.jpg)
+![](/img/neuro-science-1/action-potential.jpg) 
+
+(cổng Na+ mở làm Na+ chảy vào -> ngưỡng đóng lại -> cổng K+ mở làm K+ chảy ra bên ngoài -> đóng lại)
+
+** Ảnh tổng quan:**
+
+![](/img/neuro-science-1/big-pic-synapses.jpg) 
+
+
+
+
+
+
 
